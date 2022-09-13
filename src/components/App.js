@@ -1,20 +1,7 @@
-import "../pages/css/local-styles.css";
-import Header from "./Header";
-import Speakers from "./Speakers";
-import Layout from "./Layout";
-import { AuthProvider } from "../contexts/AuthContext";
+import ImageChangeOnMouseOver from "../pages/ImageChangeOnMouseOver";
 
 function App() {
-  return (
-    <AuthProvider initialLoggedInUser="Ronald">
-      <Layout startingTheme="light">
-        <div>
-          <Header />
-          <Speakers />
-        </div>
-      </Layout>
-    </AuthProvider>
-  );
+  return <ImageChangeOnMouseOver />;
 }
 
 export default App;
