@@ -1,7 +1,7 @@
-import ImageChangeOnMouseOver from "../pages/ImageChangeOnMouseOver";
+import ImageChangeOnScroll from "../pages/ImageChangeOnScroll";
 
 function App() {
-  return <ImageChangeOnMouseOver />;
+  return <ImageChangeOnScroll />;
 }
 
 export default App;
