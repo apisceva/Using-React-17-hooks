@@ -8,10 +8,10 @@ const ImageChangeOnScroll = () => {
   useEffect(() => {
     window.document.title = `SpeakerId: ${currentSpeakerId}`;
     console.log(`useEffect: setting title to ${currentSpeakerId}`);
-  });
+  }, [currentSpeakerId]);
   return (
     <div>
-      <span>mouseEventCnt: ${mouseEventCnt}</span>
+      <span>mouseEventCnt: {mouseEventCnt}</span>
       {[1124, 187, 823, 1269, 1530].map((speakerId) => {
         return (
           <div
