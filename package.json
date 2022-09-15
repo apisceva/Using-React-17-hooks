@@ -10,6 +10,7 @@
     "bootstrap": "^4.6.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "font-awesome": "^4.7.0",
+    "next": "^12.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-placeholder": "^4.1.0",
